@@ -1,0 +1,14 @@
+{
+  "name": "online-food-ordering-system",
+  "version": "1.0.0",
+  "description": "A full stack food ordering app using Node.js, MongoDB, HTML/CSS/JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3"
+  }
+}
