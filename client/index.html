@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Order App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Online Food Menu</h1>
+  <div id="menu">
+    <label><input type="checkbox" value="Burger" data-price="99"> Burger - ₹99</label><br>
+    <label><input type="checkbox" value="Pizza" data-price="199"> Pizza - ₹199</label><br>
+    <label><input type="checkbox" value="Pasta" data-price="149"> Pasta - ₹149</label><br>
+  </div>
+  <input type="text" id="name" placeholder="Your Name">
+  <input type="text" id="address" placeholder="Delivery Address">
+  <button onclick="placeOrder()">Place Order</button>
+  <script src="script.js"></script>
+</body>
+</html>
